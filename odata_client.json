@@ -1,0 +1,19 @@
+"trial_account_info": [
+		{
+			"HDP_server"	: "https://progress.the-dataguy.com/d2c-ui/"
+			, "user"		: "hdpuser13" 	
+			, "pass"		: "hdpuser13"
+		}
+		,{
+			"mysql_server"	: "apiworld.c493gzzikhk9.us-west-2.rds.amazonaws.com"
+			, "port"		: "3306"
+			, "user"		: "odata-user13" 	
+			, "pass"		: "odata13" 
+		}
+		,{
+			"postgresql_server"	: "apiworld17.c493gzzikhk9.us-west-2.rds.amazonaws.com"
+			, "port"		: "5432"
+			, "user"		: "odatauser13" 	
+			, "pass"		: "odata13" 
+		}
+	]

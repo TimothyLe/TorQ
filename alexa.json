@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "intent": "Navigate",
+      "slots": [
+        {
+          "name": "Place",
+          "type": "PLACE_LIST"
+        },
+        {
+          "name": "Food",
+          "type": "FOOD_LIST"
+        },
+        {
+          "name": "Shop",
+          "type": "SHOPPING_LIST"
+        }
+      ]
+    },
+    {
+      "intent": "Sleepless",
+      "slots": [
+        {
+          "name": "Time"
+          "type": "TIME_INTERVAL"
+        }
+      ]
+    },
+    {
+      "intent": "Watchdog",
+      "slots": [
+        {
+          "name": "Protect"
+          "type": "PROTECTION"
+        }
+      ]
+    }
+  ]
+}
+
+
+PLACE_LIST  Home | Parents | Friends | Work | School  
+FOOD_LIST Tacos | Rice | Ramen | Curry | Steak | Vegetarian 
+SHOPPING_LIST Walmart | Whole Foods | Target | Ross | Macys 
+TIME_INTERVAL 5 minutes | 10 minutes | 20 minutes | 30 minutes | 45 minutes | 1 hour  
+PROTECTION  On | Off
+
+
+Navigate me to my house
+Navigate me to my friends party
+Navigate me to work
+Navigate me to some tacos
+Navigate to buy clothes at Ross
+...
+Sleepless talk to me every 5
+Sleepless lets talk for 1 hour
+...
+Watchdog protect the car
+Watchdog you can stop
